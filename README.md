@@ -9,7 +9,6 @@ This repo is to build [OPSIN - Open Parser for Systematic IUPAC Nomenclature](ht
 - Download [NAnt 0.92](https://sourceforge.net/projects/nant/files/nant/0.92/nant-0.92-bin.zip) and unpack here.
 - Clone [IKVM 8.5.0.3](https://github.com/windward-studios/ikvm8) and check out `8.5.0.3`.
 - Download [ICSharpCode.SharpZipLib 1.3.1](https://www.nuget.org/api/v2/package/SharpZipLib/1.3.1) NuGet package, unpack here.
-, and copy `lib\net45\ICSharpCode.SharpZipLib.dll` to the `ikvm\bin` folder.
 - Download [openjdk-8u45-b14](http://www.frijters.net/openjdk-8u45-b14-stripped.zip) and unpack here.
 - Download [IKVM.WINWARD 8.5.0.3](https://www.nuget.org/api/v2/package/IKVM.WINDWARD/8.5.0.3) NuGet package and unpack here.
 - Download [OPSIN 2.5.0](https://github.com/dan2097/opsin/releases/download/2.5.0/opsin-2.5.0-jar-with-dependencies.jar) and place here.
