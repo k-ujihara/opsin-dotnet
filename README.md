@@ -5,6 +5,9 @@ This repo is to build [OPSIN - Open Parser for Systematic IUPAC Nomenclature](ht
 ## Procedure to Build `opsin-2.5.0-jar-with-dependencies.dll`
 
 - This is developed with Visual Studio 2019 on Windows 10.
+
+At first you need to build IKVM compiler. The procedure it here.
+
 - Install JDK8. Be sure to set PATH variable that javac can be executed.
 - Download [NAnt 0.92](https://sourceforge.net/projects/nant/files/nant/0.92/nant-0.92-bin.zip) and unpack here.
 - Clone [IKVM 8.5.0.3](https://github.com/windward-studios/ikvm8) and check out `8.5.0.3`.
@@ -13,10 +16,24 @@ This repo is to build [OPSIN - Open Parser for Systematic IUPAC Nomenclature](ht
 - Download [IKVM.WINWARD 8.5.0.3](https://www.nuget.org/api/v2/package/IKVM.WINDWARD/8.5.0.3) NuGet package and unpack here.
 - Download [OPSIN 2.5.0](https://github.com/dan2097/opsin/releases/download/2.5.0/opsin-2.5.0-jar-with-dependencies.jar) and place here.
 - Open `Developer Command Prompt for VS 2019`.
-- Execute `build.bat`.
+- Execute `build-ikvmc.bat` to build IKVM compiler..
+- Close prompt.
 
-Notes
+Next, you need to build `ikvm-native-win32-x86.dll` and `ikvm-native-win32-x64.dll`.
+
+- Open `x64 Native Tools Command Prompt for VS 2019`.
+- Execute `build-ikvm-native.bat`.
+- Close prompt.
+- Open `x86 Native Tools Command Prompt for VS 2019`.
+- Execute `build-ikvm-native.bat`.
+- Close prompt.
+
+Finally, build NuGet package.
+
+- Open `Developer Command Prompt for VS 2019`.
+- Execute `build-opsin.bat` to build `OPSIN.#.#.#.#.nupkg`.
+- Close prompt.
+
+Notes:
 
 The format of nupkg is the same with ZIP. So you can unpack nupkg file using typical unzip tools like `7z`, or change the extension of the file to `.zip` and treat it as ZIP file.
-
-This is used by Excel addin, [NCDK-Excel](https://github.com/kazuyaujihara/NCDK-Excel).

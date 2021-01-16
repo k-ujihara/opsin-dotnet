@@ -12,7 +12,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{9C5045DF-A814-491D-94A7-CF157129585D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		build.bat = build.bat
+		build-ikvm-native.bat = build-ikvm-native.bat
+		build-ikvmc.bat = build-ikvmc.bat
+		build-opsin.bat = build-opsin.bat
+		clean.bat = clean.bat
+		customize.bat = customize.bat
 		LICENSE = LICENSE
 		Opsin.nuspec = Opsin.nuspec
 		Opsin.targets = Opsin.targets
