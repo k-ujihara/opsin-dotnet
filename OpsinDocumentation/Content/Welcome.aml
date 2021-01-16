@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="4fd5de3b-32fb-43e1-826f-eecb0e0591a4" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>
+                OPSIN is a Java(1.6+) library for IUPAC name-to-structure conversion offering high recall and precision on organic chemical nomenclature.
+                Supported outputs are SMILES, CML (Chemical Markup Language) and InChI (IUPAC International Chemical Identifier)
+            </para>
+		</introduction>
+
+		<section>
+			<title>OPSIN - Open Parser for Systematic IUPAC Nomenclature</title>
+            <content>
+                <para>
+                    OPSIN is a Java(1.6+) library for IUPAC name-to-structure conversion offering high recall and precision on organic chemical nomenclature.
+                    Supported outputs are SMILES, CML (Chemical Markup Language) and InChI (IUPAC International Chemical Identifier)
+                </para>
+                <para>
+                    This is 
+                    <externalLink>
+                        <linkText>OPSIN</linkText>
+                        <linkUri>https://github.com/dan2097/opsin</linkUri>
+                    </externalLink>
+                    built for .NET Framework.
+                </para>
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="648463f8-a8fd-4040-9c14-406179308b34" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

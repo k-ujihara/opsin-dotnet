@@ -1,6 +1,6 @@
 # OPSIN - Open Parser for Systematic IUPAC Nomenclature compiled for .NET using IKVM
 
-This repo is to build [OPSIN - Open Parser for Systematic IUPAC Nomenclature](https://github.com/dan2097/opsin) for .NET Framework.
+This repo is to build [OPSIN - Open Parser for Systematic IUPAC Nomenclature](https://github.com/dan2097/opsin) for .NET Framework using IKVM.
 
 ## Procedure to Build `opsin-2.5.0-jar-with-dependencies.dll`
 

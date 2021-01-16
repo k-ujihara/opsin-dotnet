@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="779f455a-e5c2-4e51-bb45-64447cf17893" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>Version 2.5.0.1 was released on 2021/01/16.
+			</para>
+		</introduction>
+
+		<section>
+			<title>Changes in This Release</title>
+			<content>
+
+				<list class="bullet">
+					<listItem>
+						<para>
+                            This is built using
+                            <externalLink>
+                                <linkText>OPSIN - 2.5.0</linkText>
+                                <linkUri>https://github.com/dan2097/opsin/tree/3cca2774033f373b32287624e94d254c9937d51e</linkUri>
+                            </externalLink>
+                        </para>
+					</listItem>
+
+				</list>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="648463f8-a8fd-4040-9c14-406179308b34" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>
