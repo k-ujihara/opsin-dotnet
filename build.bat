@@ -62,11 +62,11 @@ echo DLL of %OPSIN_JAR% is created in %HERE%.
 where /Q msbuild
 if errorlevel 1 goto :MISSING_VS
 echo Building 
-msbuild %HERE%\Opsin\Opsin.csproj /t:Build /p:Configuration=Release
+msbuild %HERE%\Opsin\Opsin.csproj /t:Build /p:Configuration=Release,Platform=AnyCPU
 if errorlevel 1 goto :ERROREND
 
 nuget pack "Opsin.nuspec" -Prop Configuration=Release -IncludeReferencedProjects
-
+if errorlevel 1 goto :ERROREND
 
 goto :END
 

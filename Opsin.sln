@@ -1,13 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opsin", "Opsin\Opsin.csproj", "{92B7934E-4726-4B42-B7CA-B2E2AF74C767}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpsinTests", "OpsinTests\OpsinTests.csproj", "{0037A8E5-EDB4-486F-94D3-CCBFCD9F25BD}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "OpsinDocumentation", "OpsinDocumentation\OpsinDocumentation.shfbproj", "{E6906C8C-704D-43A7-A800-63CA50A4C855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{9C5045DF-A814-491D-94A7-CF157129585D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build.bat = build.bat
+		LICENSE = LICENSE
+		Opsin.nuspec = Opsin.nuspec
+		Opsin.targets = Opsin.targets
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

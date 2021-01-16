@@ -156,5 +156,15 @@
     <None Include="Opsin.snk" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\ikvm8\bin\ikvm-native-win32-x64.dll">
+      <Link>ikvm-native-win32-x64.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\ikvm8\bin\ikvm-native-win32-x86.dll">
+      <Link>ikvm-native-win32-x86.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

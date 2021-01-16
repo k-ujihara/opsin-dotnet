@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>OPSIN</id>
-        <version>2.5.0.1</version>
+        <version>2.5.0.2</version>
         <title>OPSIN - Open Parser for Systematic IUPAC Nomenclature</title>
         <authors>Kazuya Ujihara</authors>
         <owners>kazuya</owners>
@@ -20,6 +20,9 @@
         </dependencies>
     </metadata>
     <files>
+        <file src="Opsin.targets" target="build/" />
+        <file src="ikvm8\bin\ikvm-native-win32-x86.dll" target="runtimes/win-x86/native" />
+        <file src="ikvm8\bin\ikvm-native-win32-x64.dll" target="runtimes/win-x64/native" /> 
         <file src="Opsin\bin\Release\Opsin.dll" target="lib/net461" />
         <file src="Opsin\bin\Release\Opsin.xml" target="lib/net461" />
         <file src="opsin-2.5.0-jar-with-dependencies.dll" target="lib/net461" />
