@@ -1,6 +1,31 @@
-# OPSIN - Open Parser for Systematic IUPAC Nomenclature compiled for .NET using IKVM
+# OPSIN - Open Parser for Systematic IUPAC Nomenclature - for .NET Framework
 
 This repo is to build [OPSIN - Open Parser for Systematic IUPAC Nomenclature](https://github.com/dan2097/opsin) for .NET Framework using IKVM.
+
+## How to Use
+
+The basic usage is like this. You can refer OPSIN assembly via <nuget.org>.
+
+```CSharp
+using Opsin;
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var nts = NameToStructure.Instance;
+        Console.WriteLine(nts.ParseToSmiles("acetonitrile"));
+        Console.WriteLine(nts.ParseToCML("acetonitrile"));
+        var result = nts.ParseChemicalName("acetonitrile");
+        Console.WriteLine(result.GetExtendedSmiles());
+    }
+}
+```
+
+### Notice
+
+NameToInchi feature does not work on x86.
 
 ## Procedure to Build `opsin-2.5.0-jar-with-dependencies.dll`
 
@@ -34,6 +59,6 @@ Finally, build NuGet package.
 - Execute `build-opsin.bat` to build `OPSIN.#.#.#.#.nupkg`.
 - Close prompt.
 
-Notes:
+### Notes
 
 The format of nupkg is the same with ZIP. So you can unpack nupkg file using typical unzip tools like `7z`, or change the extension of the file to `.zip` and treat it as ZIP file.
