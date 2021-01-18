@@ -4,7 +4,7 @@ This repo is to build [OPSIN - Open Parser for Systematic IUPAC Nomenclature](ht
 
 ## How to Use
 
-The basic usage is like this. You can refer OPSIN assembly via <nuget.org>.
+The basic usage is like this. You can refer OPSIN assembly via [nuget.org](nuget.org).
 
 ```CSharp
 using Opsin;
@@ -27,7 +27,7 @@ class Program
 
 NameToInchi feature does not work on x86.
 
-## Procedure to Build `opsin-2.5.0-jar-with-dependencies.dll`
+## Procedure to Build
 
 - This is developed with Visual Studio 2019 on Windows 10.
 
